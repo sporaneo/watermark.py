@@ -77,7 +77,7 @@ def apply_watermark(
         file.path,
         "-i",
         wtm.overlay.path,
-        "-an",
+        #"-an",
         "-dn",
         "-sn",
         "-r",
