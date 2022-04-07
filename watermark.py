@@ -93,7 +93,7 @@ def apply_watermark(
         "-tune",
         "fastdecode",
         "-filter_complex",
-        f"[1][0]scale2ref=w=\'iw*5/100\':h=\'ow/mdar\'[wm][vid];[vid][wm]overlay={wtm.offset}",
+        f"[1][0]scale2ref=w=\'iw*10/100\':h=\'ow/mdar\'[wm][vid];[vid][wm]overlay={wtm.offset}",
         output_file,
     ]
 
